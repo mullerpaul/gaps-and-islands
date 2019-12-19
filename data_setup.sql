@@ -27,8 +27,6 @@ VALUES (7, to_date('2018-Nov-01','YYYY-Mon-DD'), to_Date('2018-Dec-31','YYYY-Mon
 INSERT INTO date_ranges (range_id, range_start, range_end) 
 VALUES (8, to_date('2019-Jan-01','YYYY-Mon-DD'), to_Date('2019-Mar-20','YYYY-Mon-DD'));
 
-INSERT INTO date_ranges (range_id, range_start, range_end) 
-VALUES (10, to_date('2019-Jun-01','YYYY-Mon-DD'), to_Date('2019-Jun-01','YYYY-Mon-DD'));
 
 COMMIT;
 

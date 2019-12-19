@@ -47,5 +47,5 @@ SELECT island_id, island_range_start, island_range_end,
                )
          GROUP BY island_id
        )
- ORDER BY island_id
+ ORDER BY island_id DESC
 /
