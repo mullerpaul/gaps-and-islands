@@ -1,0 +1,2 @@
+## find gaps in effective date ranges from records with start and end dates ##
+Since there may be concurrent records, we'll have to merge them together into "islands", and then find the "gaps" between the islands.  In this example, all datetimes are considered to be "jsut dates" with no time component.  Also, we consider a record ending on one day and another record starting on the next day to be continuous - no gap.
